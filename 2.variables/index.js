@@ -23,3 +23,11 @@ console.log(edadAlumno)
 console.log(PI)
 // solo se usara cuando crearemos la variable luego si deseamos modificar el valor o llamar a la variable solo usaremos el nombre
 
+//scope funciona cuando esta dentro
+let edad=30
+{
+    let edad=30
+    edad
+}
+console.log(edad) 
+// var funciona cuando esta fuera igual funcioa

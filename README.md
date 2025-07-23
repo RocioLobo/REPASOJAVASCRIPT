@@ -53,11 +53,28 @@ tenemos dos pasos para creara una variable
 
 
 ## 3. operadores
-## 4. Funciones
-## 5. metodos para trabajar con datos estructurados
+su clasificacion general se divide en tres
+1. operadores unarios
+   los operadores unarios son aquellos que estan ubicados a la izquierda del valor y que retornan un nuevo valor.
+- operador de negacion
+  
+1. operadores binarios
+   son aquellos que estan en medio de dos valores y que tetornan un unico valor
+- operadores aritmeticos
+- operadores de comparacion
+- operadores logicos
+  
+1. operadores ternarios
+   los operadores ternarios son aquellos que evaluan tres valores y que retornan un solo valor.
+- operador condicional
+  
+## 4. controles de flujo
+## 5. Funciones
+## 6. metodos para trabajar con datos estructurados
 ### acceder
 ### modifica
 ### crear
 ### insertar
 ### eliminar
 ### ordenar
+### DOM
