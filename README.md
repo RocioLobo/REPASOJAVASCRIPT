@@ -69,15 +69,18 @@ su clasificacion general se divide en tres
 - operador condicional
   
 ## 4. controles de flujo
-## 4. CONTROLES DE FLUJO
 Nuestros programas en JS contienen mas de una sentencia y las sentencias son ejecutadas una a una como si fuera una historia, de arriba hacia abajo. 
 - control de decision (if-else): JavaScript nos permite permite crear caminos alternativos en nuestro programa, dependiendo de una desiciona esto se le conoce como caminos o ejecucioncondiciconal, que ejecutara una sentencia u otra teniendo en cuenta la condicion asi podemos crear multiples caminos u opciones en nuestro programa.
 Si tenemos una condicion verdadera se ejecutara una sentencia, si tenemos una condicion false se ejecutara otra sentencia totalmente distinta.
 > [!WARNING] 
 > OBSERVACION: la ejecucion condicional rompe el flujo normal de un programa.
-- bucles (for):
-- bucles (while):
-> [!TIP] 
+> 
+- bucles (for): tarea con sus ejemplos y hace sus ejercicios en su carpetita
+
+
+
+- bucles (while):tarea con sus ejemplos
+  
 > SENTENCIAS: es una linea de codigo que hace una sola cosa. Para diferenciar una sentencia al terminar una linea de codigo se termina con un ";".La sentencia esta conformada por valores, variables, funciones, etc.
 ## 5. Funciones
 ## 6. metodos para trabajar con datos estructurados

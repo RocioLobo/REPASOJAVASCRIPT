@@ -28,3 +28,26 @@ if (firtsNumber>secondNumber){
 }
 
 //crear programa que muestre el numero en texto
+
+let numero=5;
+
+if (numero === 1) {
+  console.log("uno")
+} else if (numero === 2) {
+  console.log("Dos") 
+} else if (numero === 3) {
+ console.log("Tres") 
+} else if (numero === 4) {
+  console.log("Cuatro") 
+} else if (numero === 5) {
+  console.log("Cinco")
+}
+
+switch(numero){
+    case 1:
+        console.log("uno")
+        break
+    default:
+        console.log("fuera del rango")
+        break
+}
