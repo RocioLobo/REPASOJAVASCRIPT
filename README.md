@@ -83,6 +83,14 @@ Si tenemos una condicion verdadera se ejecutara una sentencia, si tenemos una co
   
 > SENTENCIAS: es una linea de codigo que hace una sola cosa. Para diferenciar una sentencia al terminar una linea de codigo se termina con un ";".La sentencia esta conformada por valores, variables, funciones, etc.
 ## 5. Funciones
+las funciones en java script son bloques de codigo que se ejecutan de manera independiente,podemos decir tambiem que son mini programas que toman datos como entra retornan otros datos como salida.
+las funciones son fundamentales para el correcto ordenamiento de nuestro codigo ademas que nos permiten separa de una manera mas ordenada  nuestra logica y evitar repetir el codigo muchas veces.
+existen tres tipos de funciones
+### Tipos de funciones
+#### 1. funciones de declaracion
+esa tipo de funcion es la mas conocida y la mas usada y su estructura es la siguiente:
+
+
 ## 6. metodos para trabajar con datos estructurados
 ### acceder
 ### modifica
