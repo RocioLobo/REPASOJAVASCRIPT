@@ -75,21 +75,52 @@ Si tenemos una condicion verdadera se ejecutara una sentencia, si tenemos una co
 > [!WARNING] 
 > OBSERVACION: la ejecucion condicional rompe el flujo normal de un programa.
 > 
-- bucles (for): tarea con sus ejemplos y hace sus ejercicios en su carpetita
+- bucles (for): 
+  
+El bucle for se usa cuando conocemos de antemano la cantidad exacta de repeticiones.
 
+Sintaxis general (Python como ejemplo):
+for variable in rango:
+    # instrucciones
 
+- bucles (while):
+  
+  El bucle while se usa cuando no sabemos exactamente cuántas veces se repetirá, pero queremos que siga mientras una condición sea verdadera.
 
-- bucles (while):tarea con sus ejemplos
+Sintaxis general:
+while condición:
+    # instrucciones
   
 > SENTENCIAS: es una linea de codigo que hace una sola cosa. Para diferenciar una sentencia al terminar una linea de codigo se termina con un ";".La sentencia esta conformada por valores, variables, funciones, etc.
 ## 5. Funciones
 las funciones en java script son bloques de codigo que se ejecutan de manera independiente,podemos decir tambiem que son mini programas que toman datos como entra retornan otros datos como salida.
 las funciones son fundamentales para el correcto ordenamiento de nuestro codigo ademas que nos permiten separa de una manera mas ordenada  nuestra logica y evitar repetir el codigo muchas veces.
 existen tres tipos de funciones
+![alt text](image.png)
+![alt text](image.png)
 ### Tipos de funciones
 #### 1. funciones de declaracion
 esa tipo de funcion es la mas conocida y la mas usada y su estructura es la siguiente:
+#### 2. funciones por expresion
 
+Una función por expresión es aquella que se asigna a una variable o constante.En lugar de declararla directamente con function nombre() {}, se guarda dentro de una variable como valor.
+
+Esto significa que la función se crea en el momento de la ejecución y solo se puede usar después de la línea donde está definida (no tiene hoisting como las funciones declaradas).
+
+- Sintaxis:
+const saludar = function(nombre) {
+  return "Hola " + nombre;
+};
+#### 3. funciones flecha arrow (function)
+
+Las funciones flecha son una forma más corta y moderna de escribir funciones introducida en ES6 (ECMAScript 2015).
+Usan la sintaxis ()=>{} en lugar de function.
+
+- Sintaxis:
+const funcionFlecha = (param1, param2) => {
+  // cuerpo de la función
+  return param1 + param2;
+};
 
 ## 6. metodos para trabajar con datos estructurados
 ### acceder
