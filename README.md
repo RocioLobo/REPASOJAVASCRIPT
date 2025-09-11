@@ -132,13 +132,14 @@ el eemplo mas claro de un metodo es el `.length` - este  metodo nos permite o no
 
 "hola" . length //4
 [2,5,4,6,7].length//5
-
+```
 > [!TIP]
 los elementos en su mayoria solo se aplican a tipo de datos string, listas y objetos,en su gran parte solo aplicados para listas.
 
 ### 6.1. metodos para string - cadenas de texto
 
 #### length
+
 devuelve la longitud de una cadena
 ```js
 let mensaje="hola como estan"
@@ -153,7 +154,8 @@ console.log(texto.toLowerCase())
 //retorna ->hola
 ```
 #### toUpperCase
-devuelve una cadena en mayusculas```js
+devuelve una cadena en mayusculas
+```js
 let mensaje="hola"
 console.log(texto.toUpperCase())
 //retorna ->HOLA
