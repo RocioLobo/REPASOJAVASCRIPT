@@ -123,6 +123,65 @@ const funcionFlecha = (param1, param2) => {
 };
 
 ## 6. metodos para trabajar con datos estructurados
+
+los metodos son funciones que dan funcionalidades extras a los tipos de datos en los cuales se aplica,
+un metodo es antecesido por un ipo de dato y un punto
+**Ejemplo**
+el eemplo mas claro de un metodo es el `.length` - este  metodo nos permite o nos retorna la cantidad de caracteres de un string o la cantidad de ele,ementos de una lista
+```js
+
+"hola" . length //4
+[2,5,4,6,7].length//5
+
+> [!TIP]
+los elementos en su mayoria solo se aplican a tipo de datos string, listas y objetos,en su gran parte solo aplicados para listas.
+
+### 6.1. metodos para string - cadenas de texto
+
+#### length
+devuelve la longitud de una cadena
+```js
+let mensaje="hola como estan"
+console.log(mensaje.length)
+//retorna ->15
+```
+#### toLowerCase
+devuelve una cadena en minusculas
+```js
+let mensaje="HOLA"
+console.log(texto.toLowerCase())
+//retorna ->hola
+```
+#### toUpperCase
+devuelve una cadena en mayusculas```js
+let mensaje="hola"
+console.log(texto.toUpperCase())
+//retorna ->HOLA
+```
+#### concat
+combina el texto de dos o mas cadenas
+```js
+let nombre="Kcapa"
+let nombre="hola"
+// let concatenado=saludo+nombre
+console.log(saludo.concat(nombre))
+
+let cad1="oh"
+let cad2="me"
+let cad3="vengo"
+console.log(cad1.concat(cad2,cad3))
+// retorna ->o me vengo
+
+
+
+
+
+
+
+
+
+### 6.2. metodos para listas - arrays
+
 ### acceder
 ### modifica
 ### crear
@@ -130,3 +189,4 @@ const funcionFlecha = (param1, param2) => {
 ### eliminar
 ### ordenar
 ### DOM
+### 6.3. metodos para objetos 
