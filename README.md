@@ -209,7 +209,82 @@ parrafo.slice(5,8)// mostrara soy
 
 
 ### 6.2. metodos para listas - arrays
+#### Crear una lista
+```js
+let lista=[]
+```
+#### Agreagando elementos a unalista
+
+```js
+let lista=[0]="manzna"
+```
+#### Agreagando elementos al final de una lista
+elelemento `push` agrega elemento al final de una lista
+```js
+let lista=[]
+lista.push("manzana")
+```
+#### unshift
+el metodo `unshift`
+agrega  elementos al inicio de una lista
+```js
+let amigos=['rony''lisbeth' 'jose']
+amigos.unshift("ronaled")
+```
+#### Removiendo elementos de una lista
+#### pop
+el metodo `pop` al  al contrario  de push  extrae  el ultimo  elemento  de una lista el pop quita los elementos de lista.
+
+#### shift
+ el metodo`shift`al contrario de unshift extrae elprimer elemento de una lista.
+
+#### Eliminando elementos de una lista
+#### delete
+elimina un elemento de una base a su indice
+```js
+let texto=["hola","como"," ","estas"]
+delete texto[2]
+```
+#### splice
+este metodo elimina el elemento en base a su indice y a la cantidad deelementos a eliminar
+```js
+let vocals=['a','e','e','i','o','u']
+vocals.splice(2,1)
+vocals
+```
+#### Combinando o uniendo listas (arrays)
+#### concat
+este metodo crea un nuevo array que contiene  los elementos del array original seguido por elemntos de uno o mas array proporcionados.
+```js
+let amigosPrimaria=['alfredi','luis','edgar']
+let amigosSecundaria=['edison','remy','miguel']
+let amigosSuperior=['josue','marlon','handy']
+let friends=amigosPrimaria.concat(amigosSecundaria,amigosSuperior)
+friends
+```
+#### funcion callback
+son funciones que reciben como parametro  una funcion anonima dentro de ello el 
+#### find 
+te  lo busca y te devueleve y lo retorna
+
+let amigos=['dara','jose','asly']
+amigos.find(el=>{el=='dara'})
+#### filter
+devolver de forma mas rapida una lista
+
+let numeros=[5,6,10,2,0,14,20,50,9,11]
+let numerosMenores=numeros.filter(num=>num<11)
+
+#### Metodos para iterar elementos
+
+#### Metodos para buscar elementos
+
+
+
 ### 6.3. metodos para objetos 
 ### 7.es6
 
 ### DOM
+(document object Model)
+modelo de objetos del documento
+DOM:es una API del navegador que se comunica con el servidor y permite que el cliente se comunica con el navegador.
