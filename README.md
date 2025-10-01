@@ -337,6 +337,20 @@ objeto["edad"]="18"
 objeto["CUI"]="76004955"
 
 ```
+### Actualizando elementos de nuestro objeto
+para realizarlaactualizacion del valor de un elemento tenemos que acceder a travez desu clave y asignarle el nuevo valor
+**observacion** la clave debe ser la misma a actualizar  de no existir creara una nueva .
+
+```js
+objeto["edad"]="20"
+
+```
+### Eliminando elementos de nuestro objeto
+para eliminar un elemento de un objeto hacemos uso de un operador unario `delete`
+```js
+delete objeto.CUI
+
+```
 ### 7.es6
 
 ### DOM
