@@ -274,14 +274,69 @@ devolver de forma mas rapida una lista
 
 let numeros=[5,6,10,2,0,14,20,50,9,11]
 let numerosMenores=numeros.filter(num=>num<11)
+#### Metodos para iterar una lista
+#### forEach
+este metodo ejecuta una funcion anonima por cada elemento de un array agarra cadauno y lo ejecuta.
+```js
+const miFuncion=a=>{}
+let numeros=[1,2,3,4,5,6]
+numeros.forEach(n=>{console.log(n+1)})
 
-#### Metodos para iterar elementos
+```
+#### map
+este metodo ejecuta una funcion anonima por cada elemento de un array , generando una nueva lista.
+```js
+let number=[1,2,3,4,5,6]
+let nuewNumber=numeros.map(n=>{return n+1})
+console.log(nuewNumber)
 
-#### Metodos para buscar elementos
+```
 
+#### Metodos para buscar elementos en una lista
+#### includes
+este metodo busca un valor en especifico  y devuelve un valor booleano e ncaso de encontrar el valor buscado retorna true caso contrario false.
+```js
+let vocales=['a','i','o','u']
+let buscaE=vocales.includes('e')
+//retorna  false
+let buscaE=vocales.includes('a')
+//retorna true
 
+```
+#### filter
+este metodo se usa para encontrar elementos dentro de una lista que cunplan con cierta condicion.
+```js
+let listNumber=[10,11,3,20,5]
+// obtener  en una lista los numeros mayores a 10
+let mayorDiez=listNumber.filter(n=>{return n>10})
+console.log(mayorDiez)
+
+```
+#### find
+ete metodo se usa para encontrar el primer elemento que cumpla con cierta ,condicion , a diferencia del `filter`
+solo retorna un elemento el que coincida con la condicion
+```js
+let lisNumeros=[10,11,3,20,5]
+// devolver el numero mayor a 10
+let menorDiez=ñisNumero.find(n=>{return n>10})
+console.log(menorDiez)
+// retorna 11 - el primer elemento que coincide con la condicion
+```
 
 ### 6.3. metodos para objetos 
+### creando un objeto
+```js
+// objeto o diccionario vacio
+let objeto={}
+```
+### agregando elementos a un objeto
+recuerden  que el elemento de un objeto esta conformado por `clave:valor`
+```js
+objeto["nombre"]="Ruth"
+objeto["edad"]="18"
+objeto["CUI"]="76004955"
+
+```
 ### 7.es6
 
 ### DOM
